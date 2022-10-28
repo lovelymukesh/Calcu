@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    height: 100vh;
+    background:  #242424;;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .screen {
+    height: 2rem;
+    margin-bottom: 2rem;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  
+  .wrapper {
+    background: #f6f8f9;
+    width: 20rem;
+    padding: 2rem;
+    margin-top: 4rem;
+    border-radius: 1rem;
+    box-shadow: 0px 9px 15px -3px rgba(0,0,0,0.1);
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+  .buttonBox {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: .5rem;
+  }
+  
+  .button {
+    background: #e9f0f4;
+    height: 3rem;
+    width:3rem;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: #242424;
+    border: none;
+    font-size: 1.5rem;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+  
+  .button:hover {
+    border: 2px solid #242424;
+  }
+  
+  .equals {
+    background: #74dba2;
+    grid-column: 3/5;
+  }
+  
+  .operation {
+    background: #d6d3cf;
+  }
